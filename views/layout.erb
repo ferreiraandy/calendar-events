@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="<%= @client_id %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      .navigation a {
+        padding: 10px;
+      }
+      .main {
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <a href="/">Home</a>
+      <a href="/calendar">Google Calendar Sample</a>
+    </div>
+
+    <div class="main">
+      <%= yield %>
+    </div>
+  </body>
+</html>
