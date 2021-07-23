@@ -31,3 +31,4 @@ ruby app.rb
 
 Open `http://localhost:4567/` in your browser to explore the calendar.
 
+![Peek 2021-07-23 14-32](https://user-images.githubusercontent.com/16719922/126819932-618bb150-c8f8-4ca3-9ccd-8b19f45d57c4.gif)
